@@ -1,3 +1,14 @@
+body {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+  color: rgb(240, 172, 225);
+  font-size: 30px;
+  margin: 50px;
+}
 .area-wrapper {
   width: 100%;
   height: 100%;
@@ -40,9 +51,9 @@
 }
 #modal-window {
   width: 200px;
-  height: 200px;
+  height: 100px;
   border: 1px solid black;
-  background-color: rgb(233, 117, 117);
+  background-color: rgb(240, 172, 225);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -51,10 +62,15 @@
   flex-flow: column;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
 }
 #btn-close {
-  width: 50px;
-  height: 40px;
+  font-size: 15px;
+  font-style: italic;
+  width: 100px;
+  height: 30px;
   background-color: pink;
   color: black;
   text-align: center;
